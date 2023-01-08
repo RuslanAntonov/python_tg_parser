@@ -63,7 +63,6 @@ app = Client(
     phone_number="123"
 )
 
-print('polilas mocha v rakovinu\n')
 logging.info("Script is started")
 
 app.run(main(main_chanel, target_chanel))
